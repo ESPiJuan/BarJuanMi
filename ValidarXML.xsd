@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://hola.com/hola"
+           xmlns="https://hola.com/hola"
+           elementFormDefault="qualified">
+    <xs:element name="clientes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="cliente" minOccurs="0" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="cliente">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref = "nombre" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element ref = "dineroQueDebe" minOccurs="1" maxOccurs="1"></xs:element>
+            </xs:sequence>
+            <xs:attribute name = "id">
+                <xs:simpleType>
+                    <xs:restriction base = "xs:positiveInteger"></xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+        
+    </xs:element>
+    <xs:element name="nombre">
+        <xs:simpleType>
+            <xs:restriction base = "xs:string">
+                <xs:pattern value="([A-Z]{1}[a-z]*)"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="dineroQueDebe">
+        <xs:simpleType>
+            <xs:restriction base = "xs:decimal">
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="empleados">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="empleado" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="empleado">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref = "DNIEmpleado" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element ref = "sueldo" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element ref = "tipoDeContrato" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element ref = "horasExtras" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element ref = "diasDeVacaciones" minOccurs="1" maxOccurs="1"></xs:element>
+            </xs:sequence>
+            <xs:attribute name = "id">
+                <xs:simpleType>
+                    <xs:restriction base = "xs:positiveInteger"></xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="diasDeVacaciones">
+        <xs:simpleType>
+            <xs:restriction base = "xs:positiveInteger"/>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="horasExtras">
+        <xs:simpleType>
+            <xs:restriction base = "xs:decimal"/>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="tipoDeContrato">
+        <xs:simpleType>
+            <xs:restriction base = "xs:string">
+                <xs:pattern value="Indefinido|Temporal|indefinido|temporal"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="sueldo">
+        <xs:simpleType>
+            <xs:restriction base = "xs:decimal"/>
+                
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="DNIEmpleado">
+        <xs:simpleType>
+            <xs:restriction base = "xs:string">
+                <xs:pattern value="[A-Za-z]?[0-9]{8}[A-Za-z]"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+</xs:schema>

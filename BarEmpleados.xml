@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<empleados
+    xmlns="https://hola.com/hola"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://hola.com/hola ValidarXML.xsd">
+    <empleado id = "1">
+        <DNIEmpleado>54133956Y</DNIEmpleado>
+        <sueldo>25</sueldo>
+        <tipoDeContrato>Indefinido</tipoDeContrato>
+        <horasExtras>23</horasExtras>
+        <diasDeVacaciones>20</diasDeVacaciones>
+    </empleado>
+    <empleado id = "2">
+        <DNIEmpleado>A54133956Y</DNIEmpleado>
+        <sueldo>22</sueldo>
+        <tipoDeContrato>Temporal</tipoDeContrato>
+        <horasExtras>12</horasExtras>
+        <diasDeVacaciones>30</diasDeVacaciones>
+    </empleado>
+</empleados>
