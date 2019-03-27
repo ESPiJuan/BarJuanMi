@@ -25,7 +25,7 @@
 
 <a href = "https://www.w3schools.com/xml/schema_simple_attributes.asp">W3Scholls xsd Attributes</a>
 
-<a href = " https://www.w3schools.com/xml/schema_dtypes_numeric.asp">W3Scholls xsd types of numbers</a>
+<a href = "https://www.w3schools.com/xml/schema_dtypes_numeric.asp">W3Scholls xsd types of numbers</a>
 
 
 - Is the markup language a brand language?
