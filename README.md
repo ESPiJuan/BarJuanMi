@@ -2,13 +2,13 @@
 
 -Between the XML and the application travel the data of a client and an employee to make a record of a person who owes money and the      employee's record and their overtime and this kind of things.
 
--captures of XML validation of BarClientes:
+-Captures of XML validation of BarClientes:
 
 <img src="https://firebasestorage.googleapis.com/v0/b/proyectojm-c5777.appspot.com/o/Nuevo%2F1.PNG?alt=media&token=2446d4b8-a3c8-40eb-95cc-975cd037b3c4">
 
 <img src="https://firebasestorage.googleapis.com/v0/b/proyectojm-c5777.appspot.com/o/Nuevo%2F1.1.PNG?alt=media&token=ad1e4119-b725-43d6-898a-a17e4d39202d">
 
--capture of XML validation of BarEmpleados:
+-Captures of XML validation of BarEmpleados:
 
 <img src= "https://firebasestorage.googleapis.com/v0/b/proyectojm-c5777.appspot.com/o/Nuevo%2F2.PNG?alt=media&token=9616d5b9-945c-4a70-a1d7-e60c6a232695">
 
