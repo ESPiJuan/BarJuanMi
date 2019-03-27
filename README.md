@@ -14,17 +14,18 @@
 
 <img src= "https://firebasestorage.googleapis.com/v0/b/proyectojm-c5777.appspot.com/o/Nuevo%2F2.2.PNG?alt=media&token=db92fa61-fe3b-4db1-9df7-a8d89c906fb1">
 
--I help me from this web pages
+-I got help from this web pages
 
-#W3Scholls: https://www.w3schools.com/xml/schema_intro.asp
+<a href = "https://www.w3schools.com/xml/schema_intro.asp">W3Scholls Schema intro</a>
 
-#Regexter: https://www.regextester.com/97122
+<a href = "https://www.regextester.com/97122">Regexter Pattern</a>
 
-#abrirllave: https://www.abrirllave.com/xsd/validacion-de-un-documento-xml-con-xsd.php
+<a href = "https://www.abrirllave.com/xsd/validacion-de-un-documento-xml-con-xsd.php">Abrirllave xsd Information</a>
 
-#W3Scholls: https://www.w3schools.com/xml/schema_simple_attributes.asp
+<a href = "https://www.w3schools.com/xml/schema_simple_attributes.asp">W3Scholls xsd Attributes</a>
 
-#W3Scholls: https://www.w3schools.com/xml/schema_dtypes_numeric.asp
+<a href = " https://www.w3schools.com/xml/schema_dtypes_numeric.asp">W3Scholls xsd types of numbers</a>
+
 
 -Is the markup language a brand language?
 
